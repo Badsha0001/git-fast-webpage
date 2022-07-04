@@ -11,11 +11,17 @@ font-size: 40px;
 .badshacolor{
     color: rgba(243, 89, 89, 0.877);
 }
-.pra{
-/* color: black;
-background-color: gray; */
 
+.Fast{
+    width: 55%;
+    padding-left: 50px;
+    
+}
 
+.img-div{
+    width: 45%;
+   
+}
 
-
+section{display: flex;}
 
