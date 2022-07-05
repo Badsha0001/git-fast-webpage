@@ -2,6 +2,7 @@ body{
     font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Work Sans', sans-serif;
+margin: 0;
 }
 
 .Fast{
@@ -12,25 +13,54 @@ font-size: 40px;
     color: rgba(243, 89, 89, 0.877);
 }
 
-.Fast{
-    width: 60%;
-    padding-left: 50px;
+.half-width{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
     
 }
 
-.img-div{
-   
+.half-width img{
+   width: 100%;
+    
+ 
+}
+.size{
+    font-size: 35px;
 }
 
-section{display: flex
-    ;}
+section{display: flex;
+margin-bottom: 150px;
+
+}
 
 .link-button{ 
+    font-size: 24px;
     text-decoration: none;
-    font-weight: 700;
-  background-image: linear-gradient(red,blue);
-color: white;
-    border-radius: 6px; 
+    font-weight: 600;
+    background-image: linear-gradient(red,blue);
+    color: white;
+    border-radius: 8px; 
     padding: 10px 35px;
     }
-    
+    .pra{
+font-size: 18px;
+
+    }
+.fastsection{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+
+
+}
+
+.dream-big{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
+
+}
+
+
