@@ -26,11 +26,9 @@ font-size: 40px;
     
  
 }
-.size{
-    font-size: 35px;
-}
 
-section{display: flex;
+
+.flexble-content{display: flex;
 margin-bottom: 150px;
 
 }
@@ -59,8 +57,38 @@ background-repeat: no-repeat;
 background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
+}
 
+.experience-item{
+box-shadow: 10px 10px  40px gray;
+margin-left: 5%;
+margin-right: 5%;
+width: 40%;
+padding: 20px;
+border-radius: 5px;
 
 }
 
+h1{
 
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+.last-section{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+}
+
+#fullStackDeveloper{
+border-left: 8px solid orange;
+}
+
+#babyWebDeveloper{
+border-right: 8px solid blue;
+
+}
