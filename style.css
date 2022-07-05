@@ -13,15 +13,24 @@ font-size: 40px;
 }
 
 .Fast{
-    width: 55%;
+    width: 60%;
     padding-left: 50px;
     
 }
 
 .img-div{
-    width: 45%;
    
 }
 
-section{display: flex;}
+section{display: flex
+    ;}
 
+.link-button{ 
+    text-decoration: none;
+    font-weight: 700;
+  background-image: linear-gradient(red,blue);
+color: white;
+    border-radius: 6px; 
+    padding: 10px 35px;
+    }
+    
